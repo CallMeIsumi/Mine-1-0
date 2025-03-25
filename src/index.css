@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import "tailwindcss";
+
+
+@theme{
+    --font-boldonse:Boldonse,"Boldonse";
+    --font-Popins:Poppins,"Poppins";
+}
