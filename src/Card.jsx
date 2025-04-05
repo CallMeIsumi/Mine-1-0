@@ -6,7 +6,7 @@ function Card() {
   return (
     <>
       <div className="flex justify-center">
-        <div className="flex flex-col bg-white rounded-lg shadow-2xl shadow-black w-56 m-18 overflow-hidden sm:w-80">
+        <div className="flex flex-col bg-white rounded-lg shadow-xl shadow-black w-44 m-14 overflow-hidden md:w-56 sm:w-72">
           <img
             src="/public/76015bad-7af5-4fab-9801-66fd5b2bb4ed.webp"
             alt=""
@@ -28,8 +28,10 @@ function Card() {
             <div className="fixed bg-black/50 min-h-screen z-10 w-screen flex justify-center items-center top-0 left-0">
               <div className="bg-white/85 w-[1500px] h-96 rounded-2xl">
                 <div className="flex flex-col relative">
-                  <p className="font-Popins font-bold text-center mt-1 text-black text-xl">thanks for your shopping</p>
-                  
+                  <p className="font-Popins font-bold text-center mt-1 text-black text-xl">
+                    thanks for your shopping
+                  </p>
+
                   <div className="absolute top-2 right-2 cursor-pointer">
                     <IoClose onClick={() => setshowModal(false)} size={30} />
                   </div>
