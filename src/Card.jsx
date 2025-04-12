@@ -5,7 +5,7 @@ function Card() {
   const [showModal, setshowModal] = useState(false);
   return (
     <>
-      <div className="flex justify-center">
+      <div className="flex justify-center z-0">
         <div className="flex flex-col bg-white rounded-lg shadow-xl shadow-black w-44 m-14 overflow-hidden md:w-56 sm:w-72">
           <img
             src="/public/76015bad-7af5-4fab-9801-66fd5b2bb4ed.webp"
